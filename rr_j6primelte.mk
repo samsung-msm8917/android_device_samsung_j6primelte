@@ -38,4 +38,7 @@ TARGET_VENDOR_PRODUCT_NAME := j6primelte
 PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="j6primeltedd-user 9 PPR1.180610.011 J610FXXU3BSI1 release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := "samsung/j6primeltedd/j6primelte:9/PPR1.180610.011/J610FXXU3BSI1:user/release-keys"
+BUILD_FINGERPRINT := "google/coral/coral:11/RP1A.200720.009/6720564:user/release-keys"
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.fingerprint=google/coral/coral:11/RP1A.200720.009/6720564:user/release-keys
