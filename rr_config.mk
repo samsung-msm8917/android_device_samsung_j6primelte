@@ -1,4 +1,5 @@
 #ResurrectionRemix
+RR_BUILDTYPE := Official
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 #BOOT ANIMATION
