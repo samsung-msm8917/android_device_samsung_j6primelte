@@ -24,12 +24,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/camera/sdm450_camera_j6primelte.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sdm450_camera_j6primelte.xml
 
-PRODUCT_PACKAGES += \
-    camera.device@3.5-impl \
-    android.hardware.camera.provider@2.4-legacy \
-    android.hardware.camera.provider@2.5-legacy
-
-
 # Fingerprint
 #PRODUCT_PACKAGES += \
 #    fingerprint.msm8937
