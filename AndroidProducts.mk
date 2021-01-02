@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_j6primelte.mk
+    $(LOCAL_DIR)/fluid_j6primelte.mk
+
+COMMON_LUNCH_CHOICES := \
+    fluid_j6primelte-user \
+    fluid_j6primelte-userdebug \
+    fluid_j6primelte-eng
